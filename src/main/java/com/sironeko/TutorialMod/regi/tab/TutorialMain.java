@@ -7,7 +7,7 @@ import net.minecraft.world.item.Items;
 public class TutorialMain {
     public static final Item[] ITEMS = {
             TutorialModItems.Tutorial_ITEM.get(),
-            TutorialModItems.Tutorial_Ingod.get(),
+            TutorialModItems.Tutorial_ingot.get(),
             Items.CHERRY_PLANKS,
             Items.STONE,
     };

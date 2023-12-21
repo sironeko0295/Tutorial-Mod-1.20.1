@@ -14,7 +14,7 @@ public class TutorialModTabs {
     public static final DeferredRegister<CreativeModeTab> MOD_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> Tutorial_MIAN =
+    public static final RegistryObject<CreativeModeTab> Tutorial_MAIN =
             MOD_TABS.register("tutorial_main", () ->
             {return CreativeModeTab.builder()
                     .icon(() -> new ItemStack(Blocks.CHERRY_PLANKS))
@@ -25,5 +25,5 @@ public class TutorialModTabs {
                                     }
                                 })
                                 .build();
-                        });
+            });
 }
