@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tutorialmod:tutorial_block"
+        }
+      ],
+      "rolls": 3.0
+    }
+  ],
+  "random_sequence": "tutorial:blocks/tutorial_block"
+}
