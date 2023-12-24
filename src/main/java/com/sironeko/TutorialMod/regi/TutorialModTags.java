@@ -10,6 +10,7 @@ import net.minecraft.world.level.block.Block;
 
 public class TutorialModTags {
     public static class Blocks{
+        public static final TagKey<Block> NEEDS_TUTORIAL_TOOL = tag("needs_tutorial_tool");
             private static TagKey<Block> tag (String name){
                 return BlockTags.create(new ResourceLocation(TutorialMod.MOD_ID,name));
         }
