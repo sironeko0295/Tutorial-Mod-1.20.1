@@ -1,6 +1,8 @@
 package com.sironeko.TutorialMod.regi.tab;
 
+import com.sironeko.TutorialMod.item.TutorialIngot;
 import com.sironeko.TutorialMod.main.TutorialMod;
+import com.sironeko.TutorialMod.regi.TutorialModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -17,7 +19,7 @@ public class TutorialModTabs {
     public static final RegistryObject<CreativeModeTab> Tutorial_MAIN =
             MOD_TABS.register("tutorial_main", () ->
             {return CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Blocks.CHERRY_PLANKS))
+                    .icon(() -> new ItemStack(TutorialModItems.Tutorial_ingot.get()))
                         .title(Component.translatable("itemGroup.tutorial_main"))
                                 .displayItems((param, output) -> {
                                     for(Item item:TutorialMain.ITEMS){

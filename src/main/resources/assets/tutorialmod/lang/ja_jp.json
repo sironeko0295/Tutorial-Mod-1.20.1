@@ -1,4 +1,5 @@
 {
   "itemGroup.tutorial_main": "チュートリアルMOD",
-  "item.tutorialmod.tutorial_ingot": "チュートリアルインゴット"
+  "item.tutorialmod.tutorial_ingot": "チュートリアルインゴット",
+  "block.tutorialmod.tutorial_block": "チュートリアルブロック"
 }

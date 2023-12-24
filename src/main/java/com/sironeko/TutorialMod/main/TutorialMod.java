@@ -1,5 +1,6 @@
 package com.sironeko.TutorialMod.main;
 
+import com.sironeko.TutorialMod.regi.TutorialModBlocks;
 import com.sironeko.TutorialMod.regi.TutorialModItems;
 import com.sironeko.TutorialMod.regi.tab.TutorialModTabs;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,6 +14,8 @@ public class TutorialMod {
     public TutorialMod(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         TutorialModItems.ITEMS.register(bus);
+        TutorialModBlocks.Blocks.BLOCKS.register(bus);
+        TutorialModBlocks.BlockItems.BLOCK_ITEMS.register(bus);
         TutorialModTabs.MOD_TABS.register(bus);
     }
 }
